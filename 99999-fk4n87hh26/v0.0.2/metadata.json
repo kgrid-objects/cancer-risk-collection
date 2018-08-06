@@ -1,0 +1,22 @@
+{
+  "title": "3-Year Liver Cancer Risk Score Interpreter",
+  "description": "This object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending on an individual's risk of developing liver cancer.",
+  "arkId": "ark:/99999/fk4n87hh26",
+  "citations": [
+    "https://citationlink"
+  ],
+  "keywords": "Keywords",
+  "owners": "KGRID",
+  "contributors": "KGRID TEAM",
+  "license": {
+    "licenseName": "",
+    "licenseLink": ""
+  },
+  "url": "http://url",
+  "published": false,
+  "version": "v0.0.2",
+  "lastModified": 1533559875662,
+  "createdOn": 1533559875661,
+  "model": "model",
+  "service": "model/service/servicedescriptor.yaml"
+}
