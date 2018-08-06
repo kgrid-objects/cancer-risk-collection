@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "66fede11-e23d-403b-ad01-c715fb09079d",
+		"name": "CancerAdvisor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Prostate Risk Score",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Age\": \"56\", \"gender\": \"M\", \"AA\": 0, \"PSA\": \"1\", \"DRE\": \"1\", \"PriorBiop\": \"1\", \"FamHist\": \"0\"}"
+				},
+				"url": {
+					"raw": "kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4571p57h/result",
+					"host": [
+						"kgrid",
+						"med",
+						"umich",
+						"edu"
+					],
+					"path": [
+						"stack2",
+						"knowledgeObject",
+						"ark:",
+						"99999",
+						"fk4571p57h",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lung Risk Score",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"age\":\"56\",\"bmi\":\"23.4\",\"cigsPerDay\":\"10\",\"edLevel\":\"1\",\"ethnicity\":\"1\",\"hxLungCancer\":\"1\",\"hxLungCancerFam\":\"0\",\"hxNonLungCancerDz\":\"1\",\"yrsQuit\":\"10\",\"yrsSmoker\":\"10\"}"
+				},
+				"url": {
+					"raw": "kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4jh3tk9s/result",
+					"host": [
+						"kgrid",
+						"med",
+						"umich",
+						"edu"
+					],
+					"path": [
+						"stack2",
+						"knowledgeObject",
+						"ark:",
+						"99999",
+						"fk4jh3tk9s",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Liver Risk Score",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"age\": \"56\", \"gender\": \"M\", \"ALT\": \"47\", \"HBeAg\": \"0\", \"HepB\": \"1\", \"HBVDNAlevel\": \"500\"}"
+				},
+				"url": {
+					"raw": "kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk41g0zc28/result",
+					"host": [
+						"kgrid",
+						"med",
+						"umich",
+						"edu"
+					],
+					"path": [
+						"stack2",
+						"knowledgeObject",
+						"ark:",
+						"99999",
+						"fk41g0zc28",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Prostate Risk Intepretation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"noRisk\": \"91.65637695092367\", \"lowRisk\": \"6.975121390788952\", \"highRisk\": \"1.3685016582873542\"}"
+				},
+				"url": {
+					"raw": "kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4n87hh26/result",
+					"host": [
+						"kgrid",
+						"med",
+						"umich",
+						"edu"
+					],
+					"path": [
+						"stack2",
+						"knowledgeObject",
+						"ark:",
+						"99999",
+						"fk4n87hh26",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lung Risk Intepretation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"risk\": \"0.41849223\"}"
+				},
+				"url": {
+					"raw": "kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4805c32z/result",
+					"host": [
+						"kgrid",
+						"med",
+						"umich",
+						"edu"
+					],
+					"path": [
+						"stack2",
+						"knowledgeObject",
+						"ark:",
+						"99999",
+						"fk4805c32z",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Liver Risk Intepretation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"risk\": \"0.41849223\"}"
+				},
+				"url": {
+					"raw": "kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4474n87d/result",
+					"host": [
+						"kgrid",
+						"med",
+						"umich",
+						"edu"
+					],
+					"path": [
+						"stack2",
+						"knowledgeObject",
+						"ark:",
+						"99999",
+						"fk4474n87d",
+						"result"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
