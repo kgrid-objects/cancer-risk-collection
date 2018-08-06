@@ -1,6 +1,6 @@
 {
-  "title": "3-Year Liver Cancer Risk Score Interpreter",
-  "description": "This object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending on an individual's risk of developing liver cancer.",
+  "title": "Prostate Cancer Risk Interpreter for Screening Recommendations",
+  "description": "This object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations.",
   "arkId": "ark:/99999/fk4n87hh26",
   "citations": [
     "https://citationlink"
