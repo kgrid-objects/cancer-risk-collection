@@ -1,8 +1,6 @@
 # Cancer Risk Knowledge Objects
 
-This project is to convert the existing cancer risk Knowledge Objects into the new model, which 
-will be compatible with the latest KGrid platform.  All six KOs plus Icon Array are used by 
-the [Cancer Advisor](https://kgrid-demos.github.io/cancer-advisor) demo app
+This project uses published risk models, and has Knowledge Objects arising from converting those published risk models into cancer risk Knowledge Objects. As of August 10, 2018, the six KOs in this collection are compatible with the latest KGrid platform.  All six KOs plus Icon Array are used by the [Cancer Advisor](https://kgrid-demos.github.io/cancer-advisor) demo app
 
 
 ## Prerequisites
