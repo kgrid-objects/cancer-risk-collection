@@ -45,11 +45,13 @@
     }
   ],
   "devDependencies": {
-    "scripty": "1.7.2",
-    "mocha": "5.2.0"
+    "jest": "^23.5.0",
+    "mocha": "5.2.0",
+    "rewire": "^4.0.1",
+    "scripty": "1.7.2"
   },
   "scripts": {
-    "test": "echo \"No test specified\" ",
+    "test": "jest",
     "prod": "scripty",
     "dev": "scripty",
     "package": "scripty"
