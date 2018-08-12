@@ -2,9 +2,39 @@
 
 This project uses published risk models, and has Knowledge Objects arising from converting those published risk models into cancer risk Knowledge Objects. As of August 10, 2018, the six KOs in this collection are compatible with the latest KGrid platform.  All six KOs plus Icon Array are used by the [Cancer Advisor](https://kgrid-demos.github.io/cancer-advisor) demo app.
 
+## Table of Contents
+
+## Getting Started
+
+## Knowledge Object Collection
+
+1. Calculate Three Year Risk For Liver Cancer
+2. Interpret Liver Cancer Risk
+3. Prostate Cancer Risk Calculation
+4. Interpert Prostate Cancer Risk
+5. Calculate Six Year Probability for Lung Cancer
+6. Interpret Lung Cancer Risk
+
+Prerequisites
+
+Testing Icon Array
+
+Package Icon Array
+
+Common Issues/Problems
+
+Roadmap
+
+## Getting Started
+These instructions will allow you to test drive one or more of the KOs in the Cancer Risk-related Knowledge Object Collection. 
+
+Below in this documentation, find each KO's API documentation in the OpenAPI 3.0 specification format. By clicking on the API Documentation link for each KO, the API documentation will be displayed in a Swagger UI tool. Utilizing the example curl or the Swagger UI tool you can test out the interation using each KO.
+
+
+
 ## Knowledge Objects in The Collection
 
-## 1. Get Three Year Risk for Liver Cancer  
+## 1.Calculate Three Year Risk for Liver Cancer  
 
 This knowledge object can be used to predict liver cancer risk for those with Hepatitis B who are without Cirrhosis of the      liver. Risk estimation for hepatocellular carcinoma in chronic hepatitis B (REACH-B) is calculated based on development        validation of a predictive score.
 
@@ -12,7 +42,7 @@ This knowledge object can be used to predict liver cancer risk for those with He
    
 This knowledge object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending      on an individual's risk of developing liver cancer. Risk estimation for hepatocellular carcinoma in chronic hepatitis B        (REACH-B) is calculated based on development and validation of a predictive score.
 
-## 3. Prostate Risk Calculation
+## 3. Prostate Cancer Risk Calculation
 
 This knowledge object can be used to predict prostate cancer risk for men 50 yers and older. This is a prostate cancer         risk scoring mechanism which calculates risk based on PSA, DRE, Age, Family History and Prior Biopsy score.
 
@@ -21,7 +51,7 @@ This knowledge object can be used to predict prostate cancer risk for men 50 yer
 This knowledge object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations. Risk estimation for prostate cancer is calculated based on prostate cancer risk calculation model.
 
 
-## 5. Get Six Year probability for Lung Cancer
+## 5. Calculate Six Year probability for Lung Cancer
 
 This knowledge can be used to predict lung cancer risk For adults ages 50 and over. This is a validated lung cancer risk prediction model that can be used to guide decisions about lung cancer screening. This model was created within a collection of lung cancer models including Spitz Model, Etzel Model, Park Model, Marcus Model, Hoggart Model, Cassidy Model, and Bach Model.
 
@@ -54,3 +84,10 @@ Library or load/activate on a KGrid Activator.
 ```
 npm run package
 ```
+
+## Common Issues/Problems
+
+More to come
+
+## Roadmap
+
