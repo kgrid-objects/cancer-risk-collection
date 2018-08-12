@@ -4,7 +4,7 @@ This project uses published risk models, and has Knowledge Objects arising from 
 
 ## Table of Contents
 
-## Getting Started
+- Getting Started
 
 - Knowledge Object Collection
 
