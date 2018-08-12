@@ -34,7 +34,7 @@ Below in this documentation, find each KO's API documentation in the OpenAPI 3.0
 
 ## Knowledge Objects in The Collection
 
-## 1.Calculate Three Year Risk for Liver Cancer  
+## 1. Calculate Three Year Risk for Liver Cancer  
 
 This knowledge object can be used to predict liver cancer risk for those with Hepatitis B who are without Cirrhosis of the      liver. Risk estimation for hepatocellular carcinoma in chronic hepatitis B (REACH-B) is calculated based on development        validation of a predictive score.
 
