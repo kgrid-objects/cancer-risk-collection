@@ -4,7 +4,17 @@ This project uses published risk models, and has Knowledge Objects arising from 
 
 ## Knowledge Objects in The Collection
 
-1. ______ - say what it is.  
+1. Get Three Year HCC Risk 
+
+2. Interpret Liver Cancer Risk
+
+3. Prostate Risk Calculation
+
+4. Interpret Lung Cancer Risk
+
+5. Get Six Year probability for Lung Cancer
+
+6. Interpret Prostate Cancer Risk
 
 
 ## Prerequisites
