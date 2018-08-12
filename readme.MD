@@ -4,17 +4,31 @@ This project uses published risk models, and has Knowledge Objects arising from 
 
 ## Knowledge Objects in The Collection
 
-1. Get Three Year HCC Risk 
+## 1. Get Three Year Risk for Liver Cancer  
 
-2. Interpret Liver Cancer Risk
+This knowledge object can be used to predict liver cancer risk for those with Hepatitis B who are without Cirrhosis of the      liver. Risk estimation for hepatocellular carcinoma in chronic hepatitis B (REACH-B) is calculated based on development        validation of a predictive score.
 
-3. Prostate Risk Calculation
+## 2. Interpret Liver Cancer Risk
+   
+This knowledge object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending      on an individual's risk of developing liver cancer. Risk estimation for hepatocellular carcinoma in chronic hepatitis B        (REACH-B) is calculated based on development and validation of a predictive score.
 
-4. Interpret Lung Cancer Risk
+## 3. Prostate Risk Calculation
 
-5. Get Six Year probability for Lung Cancer
+This knowledge object can be used to predict prostate cancer risk for men 50 yers and older. This is a prostate cancer         risk scoring mechanism which calculates risk based on PSA, DRE, Age, Family History and Prior Biopsy score.
 
-6. Interpret Prostate Cancer Risk
+## 4. Interpret Prostate Cancer Risk 
+
+This knowledge object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations. Risk estimation for prostate cancer is calculated based on prostate cancer risk calculation model.
+
+
+## 5. Get Six Year probability for Lung Cancer
+
+This knowledge can be used to predict lung cancer risk For adults ages 50 and over. This is a validated lung cancer risk prediction model that can be used to guide decisions about lung cancer screening. This model was created within a collection of lung cancer models including Spitz Model, Etzel Model, Park Model, Marcus Model, Hoggart Model, Cassidy Model, and Bach Model.
+
+## 6. Interpret Lung Cancer Risk 
+
+This knowledge object interprets an individual's 6-year risk of having lung cancer and makes individualized recommendations regarding lung cancer screening. Risk estimation for lung cancer is calculated based on lung cancer risk calculation model.
+
 
 
 ## Prerequisites
