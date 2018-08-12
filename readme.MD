@@ -6,7 +6,7 @@ This project uses published risk models, and has Knowledge Objects arising from 
 
 ## Getting Started
 
-## Knowledge Object Collection
+- Knowledge Object Collection
 
 1. Calculate Three Year Risk For Liver Cancer
 2. Interpret Liver Cancer Risk
@@ -15,15 +15,15 @@ This project uses published risk models, and has Knowledge Objects arising from 
 5. Calculate Six Year Probability for Lung Cancer
 6. Interpret Lung Cancer Risk
 
-Prerequisites
+- Prerequisites
 
-Testing Icon Array
+- Testing Icon Array
 
-Package Icon Array
+- Package Icon Array
 
-Common Issues/Problems
+- Common Issues/Problems
 
-Roadmap
+- Roadmap
 
 ## Getting Started
 These instructions will allow you to test drive one or more of the KOs in the Cancer Risk-related Knowledge Object Collection. 
