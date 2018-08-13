@@ -3,7 +3,7 @@
   "description": "This object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations.",
   "arkId": "ark:/99999/fk4n87hh26",
   "citations": [
-    "https://citationlink"
+    "http://www.ncbi.nlm.nih.gov/pubmed/24862395"
   ],
   "keywords": "Keywords",
   "owners": "KGRID",

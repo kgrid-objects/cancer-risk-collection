@@ -3,7 +3,7 @@
   "description": "This knowledge object can be used to predict liver cancer for those with Hepatitis B who are without Cirrhosis of the liver.",
   "arkId": "ark:/99999/fk41g0zc28",
   "citations": [
-    "https://citationlink"
+    "http://www.ncbi.nlm.nih.gov/pubmed/21497551"
   ],
   "keywords": "Keywords",
   "owners": "KGRID",

@@ -3,7 +3,7 @@
   "description": "For adults ages 50 and over, this is a validated lung cancer risk prediction model that can be used to guide decisions about lung cancer screening. This model was created within a collection of lung cancer models including Spitz Model, Etzel Model, Park Model, Marcus Model, Hoggart Model, Cassidy Model, and Bach Model.",
   "arkId": "ark:/99999/fk4jh3tk9s",
   "citations": [
-    "https://citationlink"
+    "http://www.nejm.org/doi/pdf/10.1056/NEJMoa1211776"
   ],
   "keywords": "Keywords",
   "owners": "KGRID",
