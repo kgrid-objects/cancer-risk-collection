@@ -4,9 +4,9 @@ This project uses published risk models, and has Knowledge Objects arising from 
 
 ## Table of Contents
 
-- Getting Started
+- [Getting Started](#getting-started)
 
-- Knowledge Object Collection
+- [Knowledge Objects in The Collection](#knowledge-objects-in-the-collection)
 
 1. Calculate Three Year Risk For Liver Cancer
 2. Interpret Liver Cancer Risk
