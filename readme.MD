@@ -38,7 +38,9 @@ Below in this documentation, find each KO's API documentation in the OpenAPI 3.0
 
 This knowledge object can be used to predict liver cancer risk for those with Hepatitis B who are without Cirrhosis of the      liver. Risk estimation for hepatocellular carcinoma in chronic hepatitis B (REACH-B) is calculated based on development        validation of a predictive score.
 
+```
 ### Example API Response
+```
 
 
 ##  Interpret Liver Cancer Risk
