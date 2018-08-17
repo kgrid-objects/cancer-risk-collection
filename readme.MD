@@ -21,7 +21,7 @@ This project uses published risk models, and has Knowledge Objects arising from 
 
 - [Package Icon Array](#package-icon-array)
 
-- [Common Issues/Problems](#common-issues-/-problems)
+- [Common Issues/Problems](#common-issuesproblems)
 
 - [Roadmap](#roadmap)
 
