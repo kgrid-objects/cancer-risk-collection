@@ -66,6 +66,13 @@ curl -X POST "http://editor.swagger.io/99999/fk41g0zc28/v0.0.2/getThreeYearHCCRi
 
 This knowledge object can be used to predict prostate cancer risk for men 50 yers and older. This is a prostate cancer         risk scoring mechanism which calculates risk based on PSA, DRE, Age, Family History and Prior Biopsy score.
 
+**Example API Usage with curl**
+```
+curl -X POST "http://editor.swagger.io/99999/fk4571p57h/v0.0.2/ProstateRiskCalc" -H 
+"accept: application/json" -H "Content-Type: application/json" -d 
+"{\"Age\":54,\"gender\":\"M\",\"PSA\":\"1.1\",
+   \"DRE\":1,\"PriorBiop\":1,\"FamHist\":1,\"AA\":1}"
+```
 ### Example API Response
 
 ##  Interpret Prostate Cancer Risk 
