@@ -37,13 +37,12 @@ Below in this documentation, find each KO's API documentation in the OpenAPI 3.0
 ##  Calculate Three Year Risk for Liver Cancer  
 
 This knowledge object can be used to predict liver cancer risk for those with Hepatitis B who are without Cirrhosis of the      liver. Risk estimation for hepatocellular carcinoma in chronic hepatitis B (REACH-B) is calculated based on development        validation of a predictive score.
-
+```
 **Example API Usage with curl**
 ```
-curl -X POST "http://editor.swagger.io/99999/fk4474n87d/v0.0.2/
-interpretLiverCancerRisk" -H "accept: application/json" -H "Content-Type: application/
-json" -d "{\"risk\":0.441}"
-```
+curl -X POST "http://editor.swagger.io/99999/fk4474n87d/v0.0.2/interpretLiverCancerRisk" -H 
+"accept: application/json" -H "Content-Type: application/json" -d "{\"risk\":0.441}"
+
 
 ```
 ### Example API Response
@@ -53,6 +52,11 @@ json" -d "{\"risk\":0.441}"
 ##  Interpret Liver Cancer Risk
    
 This knowledge object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending      on an individual's risk of developing liver cancer. Risk estimation for hepatocellular carcinoma in chronic hepatitis B        (REACH-B) is calculated based on development and validation of a predictive score.
+```
+**Example API Usage with curl**
+```
+curl -X POST "http://editor.swagger.io/99999/fk41g0zc28/v0.0.2/getThreeYearHCCRisk" -H 
+"accept: application/json" -H "Content-Type: application/json" -d "{\"age\":\"60\",\"gender\":\"M\",\"ALT\":\"18\",\"HBeAg\":\"1\",\"HepB\":\"1\",\"HBVDNAlevel\":\"99999\"}"
 
 ### Example API Response
 
