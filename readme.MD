@@ -97,6 +97,15 @@ curl -X POST "http://editor.swagger.io/99999/fk4805c32z/v0.0.2/interpretLungCanc
 
 This knowledge object interprets an individual's 6-year risk of having lung cancer and makes individualized recommendations regarding lung cancer screening. Risk estimation for lung cancer is calculated based on lung cancer risk calculation model.
 
+**Example API Usage with curl**
+```
+curl -X POST "http://editor.swagger.io/99999/fk4jh3tk9s/v0.0.2/getSixyearprobability" -H 
+"accept: application/json" -H "Content-Type: application/json" -d "{\"age\":65,\"ethnicity\":1,
+ \"bmi\":27,\"cigsPerDay\":10,\"edLevel\":1,\"hxLungCancer\":1,
+  \"hxLungCancerFam\":1,\"hxNonLungCancerDz\":1,\"yrsQuit\":1,\"yrsSmoker\":20}"
+  
+```
+
 ### Example API Response
 
 
