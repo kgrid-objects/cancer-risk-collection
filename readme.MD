@@ -79,6 +79,13 @@ curl -X POST "http://editor.swagger.io/99999/fk4571p57h/v0.0.2/ProstateRiskCalc"
 
 This knowledge object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations. Risk estimation for prostate cancer is calculated based on prostate cancer risk calculation model.
 
+**Example API Usage with curl**
+```
+curl -X POST "http://editor.swagger.io/99999/fk4n87hh26/v0.0.2/interpretProstateCancerRisk" 
+-H "accept: application/json" -H "Content-Type: application/json" -d 
+"{\"noRisk\":\"91.65\",\"lowRisk\":\"6.98\",\"highRisk\":\"1.36\"}"
+```
+
 ### Example API Response
 
 
@@ -103,8 +110,7 @@ curl -X POST "http://editor.swagger.io/99999/fk4jh3tk9s/v0.0.2/getSixyearprobabi
 "accept: application/json" -H "Content-Type: application/json" -d "{\"age\":65,\"ethnicity\":1,
  \"bmi\":27,\"cigsPerDay\":10,\"edLevel\":1,\"hxLungCancer\":1,
   \"hxLungCancerFam\":1,\"hxNonLungCancerDz\":1,\"yrsQuit\":1,\"yrsSmoker\":20}"
-  
-```
+  ```
 
 ### Example API Response
 
