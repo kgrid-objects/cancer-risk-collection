@@ -79,6 +79,11 @@ This knowledge object accepts as input a prostate cancer risk score and uses it 
 
 This knowledge can be used to predict lung cancer risk For adults ages 50 and over. This is a validated lung cancer risk prediction model that can be used to guide decisions about lung cancer screening. This model was created within a collection of lung cancer models including Spitz Model, Etzel Model, Park Model, Marcus Model, Hoggart Model, Cassidy Model, and Bach Model.
 
+**Example API Usage with curl**
+```
+curl -X POST "http://editor.swagger.io/99999/fk4805c32z/v0.0.2/interpretLungCancerRisk"
+-H "accept: application/json" -H "Content-Type: application/json" -d "{\"risk\":0.441}"
+```
 ### Example API Response
 
 ##  Interpret Lung Cancer Risk 
