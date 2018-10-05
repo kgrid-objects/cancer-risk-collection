@@ -48,13 +48,17 @@
     "jest": "^23.5.0",
     "mocha": "5.2.0",
     "rewire": "^4.0.1",
-    "scripty": "1.7.2"
+    "scripty": "1.7.2",
+    "vuepress": "^0.14.4"
   },
   "scripts": {
     "test": "jest",
     "prod": "scripty",
     "dev": "scripty",
-    "package": "scripty"
+    "package": "scripty",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploydocs": "scripty"
   },
   "scripty": {
     "path": "scripts",
