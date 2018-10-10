@@ -2,6 +2,7 @@ module.exports = {
   base: '/cancer-risk-collection/',
   title: 'Cancer Risk Collection',
   themeConfig: {
+    logo: '/images/kgrid-logo.png',
     repo: 'kgrid-objects/cancer-risk-collection',
     lastUpdated: 'Last Updated',
     nav: [
