@@ -1,0 +1,5 @@
+endpoints:
+  /getSixyearprobability:
+    adapterType: JAVASCRIPT
+    artifact: getSixyearprobability.js
+    entry: getSixyearprobability

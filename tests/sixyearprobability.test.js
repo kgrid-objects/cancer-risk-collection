@@ -1,7 +1,7 @@
 var rewire = require('rewire');
 
 //Get load in the js
-var javascript = rewire('../99999-fk4jh3tk9s/v0.0.2/model/resource/getSixyearprobability');
+var javascript = rewire('../99999-fk4jh3tk9s/v0.0.3/model/resource/getSixyearprobability');
 
 //Load in the function
 var sixyearprobability = javascript.__get__("getSixyearprobability");

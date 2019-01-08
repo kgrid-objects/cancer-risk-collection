@@ -1,0 +1,5 @@
+endpoints:
+  /getThreeYearHCCRisk:
+    adapterType: JAVASCRIPT
+    artifact: getThreeYearHCCRisk.js
+    entry: getThreeYearHCCRisk

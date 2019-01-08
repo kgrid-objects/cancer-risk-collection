@@ -1,0 +1,14 @@
+{
+  "@id": "v0.0.3",
+  "@type": "koio:Implementation",
+  "identifier": "v0.0.3",
+  "title": "Prostate Cancer Risk Calculator for Men 50 years and older II Implementation",
+  "description": "This is a prostate cancer risk scoring mechanism",
+  "keywords": "Keywords",
+  "hasServiceSpecification": "v0.0.3/service-specification.yaml",
+  "hasDeploymentSpecification": "v0.0.3/deployment-specification.yaml",
+  "hasPayload": "v0.0.3/ProstateRiskCalc.js",
+  "@context": [
+    "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+  ]
+}

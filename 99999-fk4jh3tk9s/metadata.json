@@ -1,0 +1,18 @@
+{
+  "@id": "99999-fk4jh3tk9s",
+  "@type": "koio:KnowledgeObject",
+  "identifier": "ark:/99999/fk4jh3tk9s",
+  "title": "Tammemagi, 6 year Lung Cancer Risk Prediction Model for Screening",
+  "contributors": "KGRID TEAM",
+  "desription": "For adults ages 50 and over, this is a validated lung cancer risk prediction model that can be used to guide decisions about lung cancer screening. This model was created within a collection of lung cancer models including Spitz Model, Etzel Model, Park Model, Marcus Model, Hoggart Model, Cassidy Model, and Bach Model.",
+  "citations": [
+    "http://www.nejm.org/doi/pdf/10.1056/NEJMoa1211776"
+  ],
+  "keywords": "Keywords",
+  "hasImplementation": [
+    "99999-fk4jh3tk9s/v0.0.3"
+  ],
+  "@context": [
+    "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
+  ]
+}
