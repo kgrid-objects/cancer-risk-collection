@@ -1,7 +1,7 @@
 {
   "@id": "v0.0.3",
   "@type": "koio:Implementation",
-  "identifier": "v0.0.3",
+  "identifier": "ark:/99999/fk4571p57h/v0.0.3",
   "title": "Prostate Cancer Risk Calculator for Men 50 years and older II Implementation",
   "description": "This is a prostate cancer risk scoring mechanism",
   "keywords": "Keywords",

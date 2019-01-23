@@ -1,7 +1,7 @@
 {
   "@id": "v0.0.3",
   "@type": "koio:Implementation",
-  "identifier": "v0.0.3",
+  "identifier": "ark:/99999/fk4n87hh26/v0.0.3",
   "title": "Prostate Cancer Risk Interpreter for Screening Recommendations Implementation",
   "description": "This object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations.",
   "keywords": "Keywords",
