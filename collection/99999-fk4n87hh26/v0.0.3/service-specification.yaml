@@ -5,6 +5,14 @@ info:
   description: >-
     This object accepts as input a prostate cancer risk score and uses it to
     generate prostate cancer screening recommendations.
+  license:
+    name: GNU General Public License v3 (GPL-3)
+    url: >-
+      https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
   - url: /99999/fk4n87hh26/v0.0.3
     description: Prostate Cancer Risk Score interpretation

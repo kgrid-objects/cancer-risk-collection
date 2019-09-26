@@ -1,10 +1,20 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: 'Prostate Cancer Risk Interpreter for Screening Recommendations'
-  description: This object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations.
+  title: Prostate Cancer Risk Interpreter for Screening Recommendations
+  description: >-
+    This object accepts as input a prostate cancer risk score and uses it to
+    generate prostate cancer screening recommendations.
+  license:
+    name: GNU General Public License v3 (GPL-3)
+    url: >-
+      https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
-  - url: '/99999/fk4n87hh26/v0.0.2'
+  - url: /99999/fk4n87hh26/v0.0.2
     description: Prostate Cancer Risk Score interpretation
 tags:
   - name: KO Endpoints
@@ -14,7 +24,9 @@ paths:
     post:
       tags:
         - KO Endpoints
-      description: This object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations.
+      description: >-
+        This object accepts as input a prostate cancer risk score and uses it to
+        generate prostate cancer screening recommendations.
       operationId: interp
       requestBody:
         description: inputs
@@ -57,7 +69,7 @@ components:
       properties:
         result:
           type: string
-          example: '<div class="interpretation"></div>'
+          example: <div class="interpretation"></div>
     error:
       required:
         - code

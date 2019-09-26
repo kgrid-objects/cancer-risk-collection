@@ -1,10 +1,20 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: '6 year Lung Cancer Risk Interpretation for Screening Decision-making'
-  description: This object interprets an individual's 6-year risk of having lung cancer and makes individualized recommendations regarding lung cancer screening.
+  title: 6 year Lung Cancer Risk Interpretation for Screening Decision-making
+  description: >-
+    This object interprets an individual's 6-year risk of having lung cancer and
+    makes individualized recommendations regarding lung cancer screening.
+  license:
+    name: GNU General Public License v3 (GPL-3)
+    url: >-
+      https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
-  - url: '/99999/fk4805c32z/v0.0.2'
+  - url: /99999/fk4805c32z/v0.0.2
     description: Lung Cancer Risk Score interpretation
 tags:
   - name: KO Endpoints
@@ -52,7 +62,7 @@ components:
       properties:
         result:
           type: string
-          example: '<div class="interpretation"></div>'
+          example: <div class="interpretation"></div>
     error:
       required:
         - code

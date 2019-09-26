@@ -6,6 +6,14 @@ info:
     This object accepts a 3-Year Hepatocellular Cancer risk score as input and
     generates a recommendation depending on an individual's risk of developing
     liver cancer.
+  license:
+    name: GNU General Public License v3 (GPL-3)
+    url: >-
+      https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
   - url: /99999/fk4474n87d/v0.0.3
     description: Liver Cancer Risk Score interpretation

@@ -7,6 +7,14 @@ info:
   description: >-
     This knowledge object can be used to predict liver cancer for those with
     Hepatitis B who are without Cirrhosis of the liver.
+  license:
+    name: GNU General Public License v3 (GPL-3)
+    url: >-
+      https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
   - url: /99999/fk41g0zc28/v0.0.3
     description: >-

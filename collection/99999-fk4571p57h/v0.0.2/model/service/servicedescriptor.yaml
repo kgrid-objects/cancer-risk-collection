@@ -1,10 +1,18 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: 'Prostate Cancer Risk Calculator for Men 50 years and older II'
-  description: 'This is a prostate cancer risk scoring mechanism'
+  title: Prostate Cancer Risk Calculator for Men 50 years and older II
+  description: This is a prostate cancer risk scoring mechanism
+  license:
+    name: GNU General Public License v3 (GPL-3)
+    url: >-
+      https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#fulltext
+  contact:
+    name: KGrid Team
+    email: kgrid-developers@umich.edu
+    url: 'http://kgrid.org'
 servers:
-  - url: '/99999/fk4571p57h/v0.0.2/'
+  - url: /99999/fk4571p57h/v0.0.2/
     description: This is a prostate cancer risk scoring mechanism
 tags:
   - name: KO Endpoints
@@ -47,7 +55,7 @@ components:
           example: 54
         gender:
           type: string
-          example: 'M'
+          example: M
         PSA:
           type: string
           example: '1.1'
@@ -69,7 +77,10 @@ components:
       properties:
         result:
           type: array
-          example:  [91.65637695092367, 6.975121390788952, 1.3685016582873542]
+          example:
+            - 91.65637695092367
+            - 6.975121390788952
+            - 1.3685016582873542
         success:
           type: integer
           example: 1
