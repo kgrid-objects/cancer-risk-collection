@@ -19,7 +19,7 @@ This knowledge object can be used to predict liver cancer risk for those with He
 
 **Example API Usage with curl**
 ```
-curl -X POST "http://editor.swagger.io/99999/fk4474n87d/v0.0.2/interpretLiverCancerRisk" -H
+curl -X POST "https://kgrid-activator.herokuapp.com/99999/fk4474n87d/interpretLiverCancerRisk" -H
 "accept: application/json" -H "Content-Type: application/json" -d "{\"risk\":0.441}"
 ```
 
@@ -30,7 +30,7 @@ This knowledge object accepts a 3-Year Hepatocellular Cancer risk score as input
 
 **Example API Usage with curl**
 ```
-curl -X POST "http://editor.swagger.io/99999/fk41g0zc28/v0.0.2/getThreeYearHCCRisk" -H
+curl -X POST "https://kgrid-activator.herokuapp.com/99999/fk41g0zc28/getThreeYearHCCRisk" -H
 "accept: application/json" -H "Content-Type: application/json"
  -d "{\"age\":\"60\",\"gender\":\"M\",\"ALT\":\"18\",\"HBeAg\":\"1\",
      \"HepB\":\"1\",\"HBVDNAlevel\":\"99999\"}"
@@ -42,7 +42,7 @@ This knowledge object can be used to predict prostate cancer risk for men 50 yer
 
 **Example API Usage with curl**
 ```
-curl -X POST "http://editor.swagger.io/99999/fk4571p57h/v0.0.2/ProstateRiskCalc" -H
+curl -X POST "https://kgrid-activator.herokuapp.com/endpoints/99999/fk4571p57h/ProstateRiskCalc" -H
 "accept: application/json" -H "Content-Type: application/json" -d
 "{\"Age\":54,\"gender\":\"M\",\"PSA\":\"1.1\",
    \"DRE\":1,\"PriorBiop\":1,\"FamHist\":1,\"AA\":1}"
@@ -54,7 +54,7 @@ This knowledge object accepts as input a prostate cancer risk score and uses it 
 
 **Example API Usage with curl**
 ```
-curl -X POST "http://editor.swagger.io/99999/fk4n87hh26/v0.0.2/interpretProstateCancerRisk"
+curl -X POST "https://kgrid-activator.herokuapp.com/99999/fk4n87hh26/interpretProstateCancerRisk"
 -H "accept: application/json" -H "Content-Type: application/json" -d
 "{\"noRisk\":\"91.65\",\"lowRisk\":\"6.98\",\"highRisk\":\"1.36\"}"
 ```
@@ -66,7 +66,7 @@ This knowledge can be used to predict lung cancer risk For adults ages 50 and ov
 
 **Example API Usage with curl**
 ```bash
-curl -X POST "http://editor.swagger.io/99999/fk4805c32z/v0.0.2/interpretLungCancerRisk"
+curl -X POST "https://kgrid-activator.herokuapp.com/99999/fk4805c32z/interpretLungCancerRisk"
 -H "accept: application/json" -H "Content-Type: application/json" -d "{\"risk\":0.441}"
 ```
 
@@ -76,7 +76,7 @@ This knowledge object interprets an individual's 6-year risk of having lung canc
 
 **Example API Usage with curl**
 ```bash
-curl -X POST "http://editor.swagger.io/99999/fk4jh3tk9s/v0.0.2/getSixyearprobability" -H
+curl -X POST "https://kgrid-activator.herokuapp.com/99999/fk4jh3tk9s/getSixyearprobability" -H
 "accept: application/json" -H "Content-Type: application/json" -d "{\"age\":65,\"ethnicity\":1,
  \"bmi\":27,\"cigsPerDay\":10,\"edLevel\":1,\"hxLungCancer\":1,
   \"hxLungCancerFam\":1,\"hxNonLungCancerDz\":1,\"yrsQuit\":1,\"yrsSmoker\":20}"
@@ -99,7 +99,7 @@ convenience of the export modules (KGrid Javascript adaptor limitation).  The [t
 npm test
 ```
 
-## Package Icon Array
+## Package
 
 You can create zip file of the Cancer Risk Knowledge Objects which can be used to deposit to a KGrid
 Library or load/activate on a KGrid Activator.

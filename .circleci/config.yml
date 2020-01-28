@@ -39,7 +39,7 @@ jobs:
     #     command: npm run ci
     #
     - run:
-        name: Create CPIC Objects zip ready for deployment
+        name: Create Objects zip ready for deployment
         command: npm run package
 
     - run:
