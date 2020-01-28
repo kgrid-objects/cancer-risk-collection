@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-cd collection
-for d in * ; do
-    echo "$d.zip"
-    zip -r -X "../$d.zip" $d -x \"*.DS_Store\"
+for dir in collection/* ;
+  do (cd "$dir" && kgrid package && cd ..)
 done

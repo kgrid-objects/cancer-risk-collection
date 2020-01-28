@@ -2,16 +2,17 @@
   "@id": "99999-fk41g0zc28",
   "@type": "koio:KnowledgeObject",
   "identifier": "ark:/99999/fk41g0zc28",
+  "version":"v0.0.4",
   "title": "3-year Predictor of Hepatocellular Carcinoma in Hepatitis B without Cirrhosis for an Asian Population",
   "contributors": "KGRID TEAM",
   "desription": "This knowledge object can be used to predict liver cancer for those with Hepatitis B who are without Cirrhosis of the liver.",
   "citations": [
     "http://www.ncbi.nlm.nih.gov/pubmed/21497551"
   ],
-  "keywords": "Keywords",
-  "hasImplementation": [
-    "99999-fk41g0zc28/v0.0.3"
-  ],
+  "keywords": ["Hepatocellular Carcinoma"],
+  "hasServiceSpecification": "service.yaml",
+  "hasDeploymentSpecification": "deployment.yaml",
+  "hasPayload": "getThreeYearHCCRisk.js",
   "@context": [
     "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
   ]

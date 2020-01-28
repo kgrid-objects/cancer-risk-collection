@@ -15,11 +15,11 @@ jobs:
     - checkout
 
     # Download and cache dependencies
-    - restore_cache:
-        keys:
-        - v1-dependencies-{{ checksum "package.json" }}
-        # fallback to using the latest cache if no exact match is found
-        - v1-dependencies-
+    # - restore_cache:
+    #     keys:
+    #     - v1-dependencies-{{ checksum "package.json" }}
+    #     # fallback to using the latest cache if no exact match is found
+    #     - v1-dependencies-
 
     - run:
         name: Install Dependencies
@@ -38,9 +38,16 @@ jobs:
     #     name: Intgration Testing
     #     command: npm run ci
     #
-    # - run:
-    #     name: Create CPIC Objects zip ready for deployment
-    #     command: npm run package
+    - run:
+        name: Create CPIC Objects zip ready for deployment
+        command: npm run package
+
+    - run:
+        name: Deploy KOs to Chipmunk
+        command: |
+          chmod 775 .circleci/shelf_deploy.sh && .circleci/shelf_deploy.sh https://kgrid-activator.herokuapp.com/kos collection
+          curl --write-out '%{http_code}' --silent --output /dev/null  https://kgrid-activator.herokuapp.com/activate
+          .circleci/shelf_deploy.sh https://kgrid-library.herokuapp.com/kos collection
 
     - run:
         name: Deploy VuePress GitHub Pages

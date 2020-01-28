@@ -14,7 +14,7 @@ info:
     email: kgrid-developers@umich.edu
     url: 'http://kgrid.org'
 servers:
-  - url: /99999/fk4n87hh26/v0.0.3
+  - url: /99999/fk4n87hh26
     description: Prostate Cancer Risk Score interpretation
 tags:
   - name: KO Endpoints

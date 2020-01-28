@@ -1,10 +1,11 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: Prostate Cancer Risk Interpreter for Screening Recommendations
+  title: 3-Year Liver Cancer Risk Score Interpreter
   description: >-
-    This object accepts as input a prostate cancer risk score and uses it to
-    generate prostate cancer screening recommendations.
+    This object accepts a 3-Year Hepatocellular Cancer risk score as input and
+    generates a recommendation depending on an individual's risk of developing
+    liver cancer.
   license:
     name: GNU General Public License v3 (GPL-3)
     url: >-
@@ -14,19 +15,19 @@ info:
     email: kgrid-developers@umich.edu
     url: 'http://kgrid.org'
 servers:
-  - url: /99999/fk4n87hh26/v0.0.2
-    description: Prostate Cancer Risk Score interpretation
+  - url: /99999/fk4474n87d
+    description: Liver Cancer Risk Score interpretation
 tags:
   - name: KO Endpoints
-    description: Prostate Cancer Risk Score interpretation Endpoints
+    description: Liver Cancer Risk Score interpretation Endpoints
 paths:
-  /interpretProstateCancerRisk:
+  /interpretLiverCancerRisk:
     post:
       tags:
         - KO Endpoints
       description: >-
-        This object accepts as input a prostate cancer risk score and uses it to
-        generate prostate cancer screening recommendations.
+        This object interprets an individual's 3-year Hepatocellular Cancer
+        risk.
       operationId: interp
       requestBody:
         description: inputs
@@ -52,17 +53,12 @@ components:
   schemas:
     input:
       required:
-        - highRisk
+        - risk
       properties:
-        noRisk:
-          type: string
-          example: '91.65'
-        lowRisk:
-          type: string
-          example: '6.98'
-        highRisk:
-          type: string
-          example: '1.36'
+        risk:
+          type: number
+          format: float
+          example: 0.441
     output:
       required:
         - result

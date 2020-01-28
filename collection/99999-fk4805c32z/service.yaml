@@ -1,11 +1,10 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: 3-Year Liver Cancer Risk Score Interpreter
+  title: 6 year Lung Cancer Risk Interpretation for Screening Decision-making
   description: >-
-    This object accepts a 3-Year Hepatocellular Cancer risk score as input and
-    generates a recommendation depending on an individual's risk of developing
-    liver cancer.
+    This object interprets an individual's 6-year risk of having lung cancer and
+    makes individualized recommendations regarding lung cancer screening.
   license:
     name: GNU General Public License v3 (GPL-3)
     url: >-
@@ -15,19 +14,17 @@ info:
     email: kgrid-developers@umich.edu
     url: 'http://kgrid.org'
 servers:
-  - url: /99999/fk4474n87d/v0.0.3
-    description: Liver Cancer Risk Score interpretation
+  - url: /99999/fk4805c32z
+    description: Lung Cancer Risk Score interpretation
 tags:
   - name: KO Endpoints
-    description: Liver Cancer Risk Score interpretation Endpoints
+    description: Lung Cancer Risk Score interpretation Endpoints
 paths:
-  /interpretLiverCancerRisk:
+  /interpretLungCancerRisk:
     post:
       tags:
         - KO Endpoints
-      description: >-
-        This object interprets an individual's 3-year Hepatocellular Cancer
-        risk.
+      description: This object interprets an individual's 6-year risk.
       operationId: interp
       requestBody:
         description: inputs

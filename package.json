@@ -1,63 +1,17 @@
 {
-  "template": "kotemplate",
   "project": "cancer-advisor",
-  "objects": [
-    {
-      "id": "99999-fk41g0zc28",
-      "version": "v0.0.2"
-    },
-    {
-      "id": "99999-fk4474n87d",
-      "version": "v0.0.2"
-    },
-    {
-      "id": "99999-fk4571p57h",
-      "version": "v0.0.2"
-    },
-    {
-      "id": "99999-fk4805c32z",
-      "version": "v0.0.2"
-    },
-    {
-      "id": "99999-fk4jh3tk9s",
-      "version": "v0.0.2"
-    },
-    {
-      "id": "99999-fk4n87hh26",
-      "version": "v0.0.2"
-    }
-  ],
-  "kodependencies": [],
-  "runtimedependencies": [
-    {
-      "name": "Activator",
-      "version": "0.6.3",
-      "filename": "kgrid-activator-0.6.3.jar",
-      "download_url": "https://github.com/kgrid/kgrid-activator/releases/download/kgrid-activator-0.6.3/",
-      "target": ""
-    },
-    {
-      "name": "JavaScript",
-      "version": "0.0.1",
-      "filename": "javascript-adapter-0.0.1-SNAPSHOT.jar",
-      "download_url": "https://github.com/kgrid/ko-templates/releases/download/0.1/",
-      "target": "adapters/"
-    }
-  ],
   "devDependencies": {
     "jest": "^24.9.0",
     "rewire": "^4.0.1",
     "scripty": "1.7.2",
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.0.3",
+    "@kgrid/cli":"^0.4.3"
   },
   "scripts": {
     "test": "jest",
-    "prod": "scripty",
-    "dev": "scripty",
     "package": "scripty",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploydocs": "scripty"
+    "docs:build": "vuepress build docs"
   },
   "scripty": {
     "path": "scripts",

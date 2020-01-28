@@ -2,16 +2,17 @@
   "@id": "99999-fk4474n87d",
   "@type": "koio:KnowledgeObject",
   "identifier": "ark:/99999/fk4474n87d",
+  "version":"v0.0.4",
   "title": "3-Year Liver Cancer Risk Score Interpreter",
   "contributors": "KGRID TEAM",
   "desription": "This object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending on an individual's risk of developing liver cancer.",
   "citations": [
     "http://www.ncbi.nlm.nih.gov/pubmed/21497551"
   ],
-  "keywords": "Keywords",
-  "hasImplementation": [
-    "99999-fk4474n87d/v0.0.3"
-  ],
+  "keywords": ["Hepatocellular Cancer"],
+  "hasServiceSpecification": "service.yaml",
+  "hasDeploymentSpecification": "deployment.yaml",
+  "hasPayload": "interpretLiverCancerRisk.js",
   "@context": [
     "http://kgrid.org/koio/contexts/knowledgeobject.jsonld"
   ]

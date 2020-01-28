@@ -1,7 +1,7 @@
 var rewire = require('rewire');
 
 //Get load in the js
-var javascript = rewire('../collection/99999-fk4jh3tk9s/v0.0.3/getSixyearprobability');
+var javascript = rewire('../collection/99999-fk4jh3tk9s/getSixyearprobability');
 
 //Load in the function
 var sixyearprobability = javascript.__get__("getSixyearprobability");
@@ -39,5 +39,3 @@ test('no data throws exception', () => {
   }).toThrow();
 
 });
-
-

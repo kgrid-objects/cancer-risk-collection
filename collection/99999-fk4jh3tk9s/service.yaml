@@ -14,7 +14,7 @@ info:
     email: kgrid-developers@umich.edu
     url: 'http://kgrid.org'
 servers:
-  - url: /99999/fk4jh3tk9s/v0.0.3
+  - url: /99999/fk4jh3tk9s
     description: >-
       For adults ages 50 and over, this is a validated lung cancer risk
       prediction model
