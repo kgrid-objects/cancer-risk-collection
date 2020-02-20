@@ -66,6 +66,7 @@ workflows:
   main:
     jobs:
     - build:
+        context: kgrid-objects
         filters:
           branches:
             only: master
