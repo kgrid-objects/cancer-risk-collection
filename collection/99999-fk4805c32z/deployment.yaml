@@ -1,5 +1,5 @@
 endpoints:
   /interpretLungCancerRisk:
-    adapterType: JAVASCRIPT
+    adapter: JAVASCRIPT
     artifact: interpretLungCancerRisk.js
     entry: interpretLungCancerRisk

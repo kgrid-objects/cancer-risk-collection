@@ -2,7 +2,7 @@
   "@id": "99999-fk4571p57h",
   "@type": "koio:KnowledgeObject",
   "identifier": "ark:/99999/fk4571p57h",
-  "version":"v0.0.4",
+  "version":"v0.1.0",
   "title": "Prostate Cancer Risk Calculator for Men 50 years and older II",
   "contributors": "KGRID TEAM",
   "desription": "This is a prostate cancer risk scoring mechanism",

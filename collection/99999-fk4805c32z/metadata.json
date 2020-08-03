@@ -2,7 +2,7 @@
   "@id": "99999-fk4805c32z",
   "@type": "koio:KnowledgeObject",
   "identifier": "ark:/99999/fk4805c32z",
-  "version":"v0.0.4",
+  "version":"v0.1.0",
   "title": "6 year Lung Cancer Risk Interpretation for Screening Decision-making",
   "contributors": "KGRID TEAM",
   "desription": "This object interprets an individual's 6-year risk of having lung cancer and makes individualized recommendations regarding lung cancer screening.",

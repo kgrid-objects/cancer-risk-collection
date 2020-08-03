@@ -3,9 +3,8 @@
   "devDependencies": {
     "jest": "^24.9.0",
     "rewire": "^4.0.1",
-    "scripty": "1.7.2",
-    "vuepress": "^1.0.3",
-    "@kgrid/cli": "^0.4.3"
+    "vuepress": "^1.5.2",
+    "@kgrid/cli": "^0.5.1"
   },
   "scripts": {
     "test": "jest",
