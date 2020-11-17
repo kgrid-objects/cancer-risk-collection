@@ -1,8 +1,8 @@
 {
-  "@id": "99999-fk4n87hh26",
+  "@id": "99999/fk4n87hh26/v1.0",
   "@type": "koio:KnowledgeObject",
-  "identifier": "ark:/99999/fk4n87hh26",
-  "version":"v0.1.0",
+  "identifier": "ark:/99999/fk4n87hh26/v1.0",
+  "version":"v1.0",
   "title": "Prostate Cancer Risk Interpreter for Screening Recommendations",
   "contributors": "KGRID TEAM",
   "desription": "This object accepts as input a prostate cancer risk score and uses it to generate prostate cancer screening recommendations.",

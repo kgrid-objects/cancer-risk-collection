@@ -1,5 +1,5 @@
-endpoints:
-  /interpretLungCancerRisk:
-    adapter: JAVASCRIPT
+/interpretLungCancerRisk:
+  post:
+    engine: javascript
     artifact: interpretLungCancerRisk.js
-    entry: interpretLungCancerRisk
+    function: interpretLungCancerRisk

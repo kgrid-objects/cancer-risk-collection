@@ -1,5 +1,5 @@
-endpoints:
-  /getSixyearprobability:
-    adapter: JAVASCRIPT
+/getSixyearprobability:
+  post:
+    engine: javascript
     artifact: getSixyearprobability.js
-    entry: getSixyearprobability
+    function: getSixyearprobability

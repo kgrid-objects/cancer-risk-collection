@@ -1,5 +1,5 @@
-endpoints:
-  /ProstateRiskCalc:
-    adapter: JAVASCRIPT
+/ProstateRiskCalc:
+  post:
+    engine: javascript
     artifact: ProstateRiskCalc.js
-    entry: ProstateRiskCalc
+    function: ProstateRiskCalc

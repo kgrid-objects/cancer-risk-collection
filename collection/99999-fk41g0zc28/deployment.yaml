@@ -1,5 +1,5 @@
-endpoints:
-  /getThreeYearHCCRisk:
-    adapter: JAVASCRIPT
+/getThreeYearHCCRisk:
+  post:
+    engine: javascript
     artifact: getThreeYearHCCRisk.js
-    entry: getThreeYearHCCRisk
+    function: getThreeYearHCCRisk

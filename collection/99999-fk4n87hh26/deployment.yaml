@@ -1,5 +1,5 @@
-endpoints:
-  /interpretProstateCancerRisk:
-    adapter: JAVASCRIPT
+/interpretProstateCancerRisk:
+  post:
+    engine: javascript
     artifact: interpretProstateCancerRisk.js
-    entry: interpretProstateCancerRisk
+    function: interpretProstateCancerRisk

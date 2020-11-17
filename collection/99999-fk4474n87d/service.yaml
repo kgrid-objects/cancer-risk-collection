@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  version: 1.0.0
+  version: '1.0'
   title: 3-Year Liver Cancer Risk Score Interpreter
   description: >-
     This object accepts a 3-Year Hepatocellular Cancer risk score as input and
@@ -15,7 +15,7 @@ info:
     email: kgrid-developers@umich.edu
     url: 'http://kgrid.org'
 servers:
-  - url: /99999/fk4474n87d
+  - url: /99999/fk4474n87d/1.0
     description: Liver Cancer Risk Score interpretation
 tags:
   - name: KO Endpoints

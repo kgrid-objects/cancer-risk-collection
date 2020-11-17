@@ -1,8 +1,8 @@
 {
-  "@id": "99999-fk4474n87d",
+  "@id": "99999/fk4474n87d/v1.0",
   "@type": "koio:KnowledgeObject",
-  "identifier": "ark:/99999/fk4474n87d",
-  "version":"v0.1.0",
+  "identifier": "ark:/99999/fk4474n87d/v1.0",
+  "version":"v1.0",
   "title": "3-Year Liver Cancer Risk Score Interpreter",
   "contributors": "KGRID TEAM",
   "desription": "This object accepts a 3-Year Hepatocellular Cancer risk score as input and generates a recommendation depending on an individual's risk of developing liver cancer.",
