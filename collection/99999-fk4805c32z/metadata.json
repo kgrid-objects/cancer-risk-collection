@@ -5,7 +5,7 @@
   "version":"v1.0",
   "title": "6 year Lung Cancer Risk Interpretation for Screening Decision-making",
   "contributors": "KGRID TEAM",
-  "desription": "This object interprets an individual's 6-year risk of having lung cancer and makes individualized recommendations regarding lung cancer screening.",
+  "description": "This object interprets an individual's 6-year risk of having lung cancer and makes individualized recommendations regarding lung cancer screening.",
   "citations": [
     "http://www.nejm.org/doi/pdf/10.1056/NEJMoa1211776"
   ],

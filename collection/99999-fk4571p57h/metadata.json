@@ -5,7 +5,7 @@
   "version":"v1.0",
   "title": "Prostate Cancer Risk Calculator for Men 50 years and older II",
   "contributors": "KGRID TEAM",
-  "desription": "This is a prostate cancer risk scoring mechanism",
+  "description": "This is a prostate cancer risk scoring mechanism",
   "citations": [
     "http://www.ncbi.nlm.nih.gov/pubmed/24862395"
   ],
